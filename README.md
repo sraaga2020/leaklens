@@ -8,10 +8,8 @@ LeakLens is a dependency-free local app for finding exposed credentials in a cod
 python3 server.py
 ```
 
-Then open `http://127.0.0.1:8787`. By default the current directory is scanned. To scan another local project:
+Then open `http://127.0.0.1:8788` to access LeakLens. 
 
-```bash
-python3 server.py /path/to/project
 ```
 
 ## Features
