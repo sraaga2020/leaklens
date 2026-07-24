@@ -1,0 +1,8 @@
+.header-actions { display: flex; gap: 8px; align-items: center; }
+.upload { border: 1px solid #c9d9c6; background: #edf3e9; color: #285440; padding: 12px 14px; border-radius: 4px; font: 600 13px 'DM Sans', sans-serif; white-space: nowrap; cursor: pointer; }
+.upload:hover { background: #e0ecdc; }
+.upload:disabled { opacity: .6; cursor: wait; }
+.instructions ol { margin: 8px 0 0 19px; padding: 0; }
+.instructions li { margin: 4px 0; line-height: 1.4; }
+.manual-label { font: 500 10px 'DM Mono', monospace; color: #8a6519; background: #fbf1d8; padding: 8px 7px; border-radius: 3px; white-space: nowrap; }
+@media (max-width: 460px) { .header-actions { margin-top: 18px; } .upload { padding: 12px 10px; } }
