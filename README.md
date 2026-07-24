@@ -18,6 +18,6 @@ Then open `http://127.0.0.1:8788` to access LeakLens.
 - Shows file, line, commit (for history), category, confidence, and risk level.
 - Scans tracked Git commits as well as current files.
 - Offers one-click remediation for assignment-style current-file findings. It safely creates a `.bak` copy before changing a file.
-- Uses a built-in context reviewer to suppress examples, tests, placeholders, and redacted values. Optionally configure OpenAI compatible review through `LEAKLENS_LLM_URL` and `LEAKLENS_LLM_KEY`.
+- Uses a built-in context reviewer to suppress examples, tests, placeholders, and redacted values.
 
 The app intentionally does not transmit source code unless you configure the optional remote LLM reviewer.
